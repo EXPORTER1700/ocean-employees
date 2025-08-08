@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "ACTIVE",
+    "department": "TECH",
+    "contacts": {
+      "phone": "+380501112233",
+      "telegramUsername": "alice_j"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "avatar": "/images/user-avatar.png",
+    "role": "TEAM_LEAD",
+    "status": "ACTIVE",
+    "department": "TECH",
+    "contacts": {
+      "phone": "+380502223344",
+      "telegramUsername": "bob_smith"
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "Carla",
+    "lastName": "Davis",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "INACTIVE",
+    "department": "SALES",
+    "contacts": {
+      "phone": "+380503334455",
+      "telegramUsername": "carla_d"
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "Daniel",
+    "lastName": "Brown",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "ACTIVE",
+    "department": "FINANCE",
+    "contacts": {
+      "phone": "+380504445566",
+      "telegramUsername": "dan_brown"
+    }
+  },
+  {
+    "id": 5,
+    "firstName": "Eva",
+    "lastName": "Wilson",
+    "avatar": "/images/user-avatar.png",
+    "role": "TEAM_LEAD",
+    "status": "ACTIVE",
+    "department": "SALES",
+    "contacts": {
+      "phone": "+380505556677",
+      "telegramUsername": "eva_w"
+    }
+  },
+  {
+    "id": 6,
+    "firstName": "Frank",
+    "lastName": "Taylor",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "ACTIVE",
+    "department": "FINANCE",
+    "contacts": {
+      "phone": "+380506667788",
+      "telegramUsername": "frankt"
+    }
+  },
+  {
+    "id": 7,
+    "firstName": "Grace",
+    "lastName": "Miller",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "INACTIVE",
+    "department": "TECH",
+    "contacts": {
+      "phone": "+380507778899",
+      "telegramUsername": "grace_m"
+    }
+  },
+  {
+    "id": 8,
+    "firstName": "Henry",
+    "lastName": "Moore",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "ACTIVE",
+    "department": "SALES",
+    "contacts": {
+      "phone": "+380508889900",
+      "telegramUsername": "henrymoore"
+    }
+  },
+  {
+    "id": 9,
+    "firstName": "Isabella",
+    "lastName": "Thomas",
+    "avatar": "/images/user-avatar.png",
+    "role": "TEAM_LEAD",
+    "status": "ACTIVE",
+    "department": "FINANCE",
+    "contacts": {
+      "phone": "+380509991122",
+      "telegramUsername": "isathomas"
+    }
+  },
+  {
+    "id": 10,
+    "firstName": "Jack",
+    "lastName": "Anderson",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "INACTIVE",
+    "department": "SALES",
+    "contacts": {
+      "phone": "+380501234567",
+      "telegramUsername": "jack_a"
+    }
+  },
+  {
+    "id": 11,
+    "firstName": "Karen",
+    "lastName": "Lee",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "ACTIVE",
+    "department": "TECH",
+    "contacts": {
+      "phone": "+380502345678",
+      "telegramUsername": "karenlee"
+    }
+  },
+  {
+    "id": 12,
+    "firstName": "Leo",
+    "lastName": "Walker",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "ACTIVE",
+    "department": "SALES",
+    "contacts": {
+      "phone": "+380503456789",
+      "telegramUsername": "leow"
+    }
+  },
+  {
+    "id": 13,
+    "firstName": "Mia",
+    "lastName": "Hall",
+    "avatar": "/images/user-avatar.png",
+    "role": "TEAM_LEAD",
+    "status": "ACTIVE",
+    "department": "TECH",
+    "contacts": {
+      "phone": "+380504567890",
+      "telegramUsername": "mia_h"
+    }
+  },
+  {
+    "id": 14,
+    "firstName": "Nathan",
+    "lastName": "Young",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "INACTIVE",
+    "department": "FINANCE",
+    "contacts": {
+      "phone": "+380505678901",
+      "telegramUsername": "nate_y"
+    }
+  },
+  {
+    "id": 15,
+    "firstName": "Olivia",
+    "lastName": "King",
+    "avatar": "/images/user-avatar.png",
+    "role": "DEVELOPER",
+    "status": "ACTIVE",
+    "department": "TECH",
+    "contacts": {
+      "phone": "+380506789012",
+      "telegramUsername": "oliviak"
+    }
+  }
+]

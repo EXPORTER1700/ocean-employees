@@ -1,0 +1,17 @@
+@use "variables";
+
+.container {
+  display: flex;
+
+  .item {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px;
+    background-color: variables.$background-darker;
+
+    &.active {
+      color: white;
+      background-color: variables.$primary-color;
+    }
+  }
+}

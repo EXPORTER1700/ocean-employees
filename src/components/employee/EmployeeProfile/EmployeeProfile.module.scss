@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .info {
+    display: flex;
+    gap: 30px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .row {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,16 @@
+@use "variables";
+
+.body {
+  .header {
+    height: variables.$header-height;
+    background-color: variables.$background-darker;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .main {
+    padding: 20px;
+  }
+}

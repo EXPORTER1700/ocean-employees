@@ -1,0 +1,48 @@
+@use "variables";
+
+.container {
+  position: relative;
+
+  .select {
+    height: 36px;
+    border: 1px solid variables.$primary-color;
+    border-radius: 8px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .options {
+    background-color: variables.$background-color;
+    box-shadow: 10px 10px 63px -10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 10px 63px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 63px -10px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 10;
+
+    .hidden {
+      display: none;
+    }
+
+    .option {
+      padding: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: variables.$background-darker;
+      }
+    }
+  }
+
+  .iconReversed {
+    transform: rotate(-180deg);
+  }
+}

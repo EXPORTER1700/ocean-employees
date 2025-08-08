@@ -1,0 +1,28 @@
+@use 'variables';
+
+.container {
+  position: relative;
+  display: flex;
+  gap: 20px;
+
+  .tab {
+
+    .link {
+      font-size: 24px;
+      text-decoration: none;
+      color: variables.$text-color;
+
+      &.active {
+        color: variables.$primary-color;
+      }
+    }
+  }
+
+  .indicator {
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    background-color: variables.$primary-color;
+    transition: transform 0.3s ease, width 0.3s ease;
+  }
+}

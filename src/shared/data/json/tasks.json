@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Prepare monthly report",
+    "description": "Gather data and compile monthly performance report.",
+    "employeeId": 4,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 2,
+    "title": "Update CRM records",
+    "description": "Ensure all customer data is up-to-date in CRM.",
+    "employeeId": 1,
+    "status": "DONE"
+  },
+  {
+    "id": 3,
+    "title": "Implement login feature",
+    "description": "Develop secure login for the new platform.",
+    "employeeId": 13,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 4,
+    "title": "Fix invoice bug",
+    "description": "Resolve issue with incorrect invoice totals.",
+    "employeeId": 7,
+    "status": "TODO"
+  },
+  {
+    "id": 5,
+    "title": "Team onboarding",
+    "description": "Onboard new sales team members.",
+    "employeeId": 2,
+    "status": "DONE"
+  },
+  {
+    "id": 6,
+    "title": "Review marketing strategy",
+    "description": "Assess current strategy and suggest improvements.",
+    "employeeId": 5,
+    "status": "TODO"
+  },
+  {
+    "id": 7,
+    "title": "QA test dashboard",
+    "description": "Perform manual tests on the new admin dashboard.",
+    "employeeId": 10,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 8,
+    "title": "Update documentation",
+    "description": "Write updated API docs for internal use.",
+    "employeeId": 3,
+    "status": "DONE"
+  },
+  {
+    "id": 9,
+    "title": "Refactor user service",
+    "description": "Clean and optimize code in the user service module.",
+    "employeeId": 6,
+    "status": "TODO"
+  },
+  {
+    "id": 10,
+    "title": "Prepare training session",
+    "description": "Create slides for team skill training.",
+    "employeeId": 11,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 11,
+    "title": "Optimize SQL queries",
+    "description": "Improve database performance by optimizing queries.",
+    "employeeId": 9,
+    "status": "DONE"
+  },
+  {
+    "id": 12,
+    "title": "Client follow-up",
+    "description": "Follow up with top 5 clients for feedback.",
+    "employeeId": 8,
+    "status": "TODO"
+  },
+  {
+    "id": 13,
+    "title": "Redesign homepage",
+    "description": "Propose a cleaner homepage layout.",
+    "employeeId": 15,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 14,
+    "title": "Audit financial reports",
+    "description": "Double-check all reports for Q2.",
+    "employeeId": 14,
+    "status": "DONE"
+  },
+  {
+    "id": 15,
+    "title": "Create KPI dashboard",
+    "description": "Visualize KPIs on a real-time dashboard.",
+    "employeeId": 5,
+    "status": "TODO"
+  },
+  {
+    "id": 16,
+    "title": "Security review",
+    "description": "Conduct app-wide security audit.",
+    "employeeId": 12,
+    "status": "TODO"
+  },
+  {
+    "id": 17,
+    "title": "Design newsletter template",
+    "description": "Create a modern email template for campaigns.",
+    "employeeId": 1,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 18,
+    "title": "Prepare tax documents",
+    "description": "Compile and submit tax files for the last quarter.",
+    "employeeId": 3,
+    "status": "DONE"
+  },
+  {
+    "id": 19,
+    "title": "Improve mobile responsiveness",
+    "description": "Fix layout issues on mobile devices.",
+    "employeeId": 6,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 20,
+    "title": "Benchmark competitors",
+    "description": "Analyze competitor offerings and pricing.",
+    "employeeId": 8,
+    "status": "TODO"
+  },
+  {
+    "id": 21,
+    "title": "Deploy staging server",
+    "description": "Setup and deploy app to staging environment.",
+    "employeeId": 9,
+    "status": "DONE"
+  },
+  {
+    "id": 22,
+    "title": "Write blog post",
+    "description": "Publish a new article on latest tech trends.",
+    "employeeId": 2,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 23,
+    "title": "Prepare sales deck",
+    "description": "Update presentation slides for new product pitch.",
+    "employeeId": 11,
+    "status": "TODO"
+  },
+  {
+    "id": 24,
+    "title": "Client demo",
+    "description": "Demo the app to potential clients.",
+    "employeeId": 13,
+    "status": "DONE"
+  },
+  {
+    "id": 25,
+    "title": "Schedule interviews",
+    "description": "Arrange interviews for new backend developer role.",
+    "employeeId": 4,
+    "status": "TODO"
+  },
+  {
+    "id": 26,
+    "title": "Handle support tickets",
+    "description": "Respond to unresolved customer support issues.",
+    "employeeId": 7,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 27,
+    "title": "Improve onboarding flow",
+    "description": "Make the signup process smoother for users.",
+    "employeeId": 14,
+    "status": "TODO"
+  },
+  {
+    "id": 28,
+    "title": "Generate API keys",
+    "description": "Add functionality to manage user API keys.",
+    "employeeId": 10,
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 29,
+    "title": "Fix notification bug",
+    "description": "Resolve issue with push notifications not firing.",
+    "employeeId": 12,
+    "status": "DONE"
+  },
+  {
+    "id": 30,
+    "title": "Conduct team retrospective",
+    "description": "Discuss what went well and what could improve.",
+    "employeeId": 15,
+    "status": "TODO"
+  }
+]

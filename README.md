@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ocean Employees
 
-## Getting Started
+## Опис проекту
 
-First, run the development server:
+**Ocean Employees** — це сучасний веб-додаток для управління списком працівників компанії. Він дозволяє переглядати, фільтрувати, редагувати та організовувати інформацію про співробітників. Проєкт створений з використанням сучасних технологій React та Next.js для максимальної продуктивності та зручності у використанні.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Використані технології
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15** — фреймворк для серверного рендерингу React-застосунків, що забезпечує швидке завантаження сторінок і SEO.
+- **React 19** — бібліотека для побудови користувацьких інтерфейсів.
+- **TypeScript** — мова програмування, що додає статичну типізацію до JavaScript.
+- **Sass** — препроцесор для CSS, що дозволяє використовувати змінні, вкладеність, міксіни і багато іншого.
+- **ESLint** — інструмент для пошуку та виправлення проблем у коді.
+- **Prettier** — автоматичне форматування коду.
+- **clsx** — утиліта для умовного додавання класів CSS.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Скрипти (команди)
 
-To learn more about Next.js, take a look at the following resources:
+- `bun run dev` — запуск локального сервера розробки з підтримкою Turbopack.
+- `bun run build` — збірка проєкту для продакшну.
+- `bun run start` — запуск зібраного продакшн-сервера.
+- `bun run lint` — запуск ESLint для перевірки якості коду.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Для чого потрібні ці технології
 
-## Deploy on Vercel
+- **Next.js** допомагає робити швидкі та SEO-дружні React-застосунки з серверним рендерингом.
+- **React** відповідає за побудову компонентного UI.
+- **TypeScript** робить код більш надійним і легшим для підтримки за рахунок типів.
+- **Sass** спрощує написання стилів, роблячи їх більш організованими.
+- **ESLint** та **Prettier** підтримують єдиний стиль коду і запобігають багатьом помилкам.
+- **clsx** допомагає легко керувати класами стилів залежно від умов.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Технічні особливості**
+    - Використаний Next.js App Router і TypeScript з чіткими типами
+    - Optimistic UI update реалізований для drag-and-drop зміни статусу задач
+    - Адаптивний дизайн
+    - Реалізація кастомної модалки у shared/ui шарі
+    - Реалізована видимість функціоналу на основі ролей через переключення ролі у хедері — лише "Team Lead" може редагувати контакти

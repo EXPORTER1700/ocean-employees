@@ -1,0 +1,38 @@
+@use 'variables';
+
+.wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 100ms linear;
+  pointer-events: none;
+
+  &.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+  }
+
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+    background: variables.$background-color;
+    border-radius: 8px;
+    max-width: min(468px, calc(100% - 24px));
+    max-height: min(800px, calc(100% - 60px));
+    width: 100%;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 8px 22px 0 rgb(0 0 0 / 19%);
+    overflow: auto;
+    opacity: 1;
+    transition: opacity .5s;
+  }
+}

@@ -1,0 +1,11 @@
+@use "sass:color";
+
+$header-height: 60px;
+
+$primary-color: #2544ec;
+$primary-lighter: color.adjust($primary-color, $lightness: 30%);
+
+$background-color: white;
+$background-darker: #ececec;
+
+$text-color: black;

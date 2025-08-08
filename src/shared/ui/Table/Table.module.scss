@@ -1,0 +1,23 @@
+@use "variables";
+
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid variables.$background-darker;
+
+  td, th {
+    text-align: left;
+    vertical-align: middle;
+    text-transform: capitalize;
+    padding: 8px 10px;
+  }
+
+  th {
+    font-weight: 600;
+  }
+
+  thead tr, tbody tr:nth-child(2n) {
+    background-color: variables.$background-darker;
+  }
+}
