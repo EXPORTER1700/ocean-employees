@@ -5,6 +5,7 @@ import clsx from 'clsx';
 import Image from 'next/image';
 
 import useClickOutside from '@src/shared/hooks/useOutsideClick';
+import { Option } from '@src/shared/types/common/option';
 import classes from '@src/shared/ui/Select/Select.module.scss';
 
 type SelectProps<T extends string | number> = {

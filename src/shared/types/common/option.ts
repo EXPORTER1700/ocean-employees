@@ -1,4 +1,4 @@
-type Option<T extends string | number> = {
+export type Option<T extends string | number> = {
   label: string;
   value: T;
 };

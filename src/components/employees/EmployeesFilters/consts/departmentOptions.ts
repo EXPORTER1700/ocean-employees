@@ -1,5 +1,6 @@
 import { EmployeeDepartment } from '@src/shared/api/employee/enums';
 import { employeeDepartmentLabels } from '@src/shared/consts/labels/employeeDepartmentLabels';
+import { Option } from '@src/shared/types/common/option';
 
 export const departmentOptions: Option<EmployeeDepartment>[] = [
   { label: 'All', value: '' as unknown as EmployeeDepartment },
